@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+  
+      <img  class="logo" src="./images/logo.svg" alt="logo">
+      
+      <nav class="navbar">
+      <div class="featuresdiv" data-dropdown="">
+          <button class="features" data-dropdown-button >Features <img class="Chevrondown" src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></button>
+          <ul class="dropdown-features">
+            <li><img src="./images/icon-todo.svg" alt="icon-todo"> Todo List</li>
+            <li><img src="./images/icon-calendar.svg" alt=""> Calendars</li>
+            <li><img src="./images/icon-reminders.svg" alt=""> Reminders</li>
+            <li><img src="./images/icon-planning.svg" alt=""> Planning</li>
+          </ul>
+        </div>
+        <div class="companydiv" data-dropdown="">
+          <button class="company" data-dropdown-button >Company <img class="Chevrondown" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+          </button>
+          <ul class="dropdown-company">
+            <li> History</li>
+            <li> Our Team</li>
+            <li> Blog</li>
+            
+          </ul>
+        </div>
+        <div class="aboutbtn"><button>About</button></div>
+        <div class="careersbtn"><button>Careers</button></div>  
+      </nav>
+    
+      <div class="navbtn">
+        <button>Login</button>
+        <button>Register</button>
+      </div>   
+      
+    <div>
+      <button class="Menu-Open">
+        <img  id="Menu-Open"src="./images/icon-menu.svg" alt="Menu-Open">
+      </button> 
+    </div>
+
+    
+    <div class="closeMenu"> 
+        <button class ="close-Menu">
+          <img  id="close-Menu" src="./images/icon-close-menu.svg" alt="">
+        </button>
+    </div>
+  </header>
+
+  <main>
+  <section class = "content">
+    <div class="text">
+      <h1 class="topic">
+        Make <br> remote work
+      </h1>
+      <p class="explanation">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button>
+        Learn more
+      </button>
+    <div class="footer_logos">
+      <img src="./images/client-databiz.svg" alt="">
+      <img src="./images/client-audiophile.svg" alt="">
+      <img src="./images/client-meet.svg" alt="">
+      <img src="./images/client-maker.svg" alt="">
+    </div>
+    </div>
+    <div class="image">
+      <img src="./images/image-hero-desktop.png" alt="">
+    </div>
+  </section>
+</main>
+  <div class="overflow"></div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdulaziz Hussein</a>.
+  </div>
+  <script src="main.js">
+    
+  </script>
+</body>
+</html>
